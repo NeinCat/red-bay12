@@ -23,19 +23,24 @@
  */
 
 //Used for preprocessing entered text
-/proc/sanitize(var/input, var/max_length = MAX_MESSAGE_LEN, var/encode = 1, var/trim = 1, var/extra = 1)
+/proc/sanitize(var/input, var/max_length = MAX_MESSAGE_LEN, var/encode = 1, var/trim = 1, var/extra = 1, var/ja_mode = CHAT)
+	#ifdef DEBUG_CYRILLIC
+	world << "\magenta DEBUG: \red <b>sanitize() entered, text:</b> <i>[input]</i>"
+	world << "\magenta DEBUG: \red <b>ja_mode:</b> [ja_mode]"
+	#endif
 	if(!input)
 		return
 
 	if(max_length)
 		input = copytext(input,1,max_length)
 
+	input = replacetext(input, JA, JA_TEMP)
+
 	if(extra)
 		input = replace_characters(input, list("\n"=" ","\t"=" "))
 
 	if(encode)
-		// The below \ escapes have a space inserted to attempt to enable Travis auto-checking of span class usage. Please do not remove the space.
-		//In addition to processing html, html_encode removes byond formatting codes like "\ red", "\ i" and other.
+		//In addition to processing html, html_encode removes byond formatting codes like "\red", "\i" and other.
 		//It is important to avoid double-encode text, it can "break" quotes and some other characters.
 		//Also, keep in mind that escaped characters don't work in the interface (window titles, lower left corner of the main window, etc.)
 		input = html_encode(input)
@@ -48,14 +53,24 @@
 		//Maybe, we need trim text twice? Here and before copytext?
 		input = trim(input)
 
-	return input
+	switch(ja_mode)
+		if(CHAT)
+			input = replacetext(input, JA_TEMP, JA_CHAT)
+		if(POPUP)
+			input = replacetext(input, JA_TEMP, JA_POPUP)
+		//или оставляем как есть, для дальнейшей обработки отдельно
 
+	#ifdef DEBUG_CYRILLIC
+	world << "\magenta DEBUG: \blue <b>sanitize() finished, text:</b> <i>[input]</i>"
+	#endif
+
+	return input
 //Run sanitize(), but remove <, >, " first to prevent displaying them as &gt; &lt; &34; in some places, after html_encode().
 //Best used for sanitize object names, window titles.
 //If you have a problem with sanitize() in chat, when quotes and >, < are displayed as html entites -
 //this is a problem of double-encode(when & becomes &amp;), use sanitize() with encode=0, but not the sanitizeSafe()!
-/proc/sanitizeSafe(var/input, var/max_length = MAX_MESSAGE_LEN, var/encode = 1, var/trim = 1, var/extra = 1)
-	return sanitize(replace_characters(input, list(">"=" ","<"=" ", "\""="'")), max_length, encode, trim, extra)
+/proc/sanitizeSafe(var/input, var/max_length = MAX_MESSAGE_LEN, var/encode = 1, var/trim = 1, var/extra = 1, var/ja_mode = CHAT)
+	return sanitize(replace_characters(input, list(">"=" ","<"=" ", "\""="'")), max_length, encode, trim, extra, ja_mode)
 
 //Filters out undesirable characters from names
 /proc/sanitizeName(var/input, var/max_length = MAX_NAME_LEN, var/allow_numbers = 0)
@@ -298,7 +313,11 @@ proc/TextPreview(var/string,var/len=40)
 
 //alternative copytext() for encoded text, doesn't break html entities (&#34; and other)
 /proc/copytext_preserve_html(var/text, var/first, var/last)
-	return html_encode(copytext(html_decode(text), first, last))
+	text = replacetext(text, JA_POPUP, JA_TEMP)//для универсальности
+	text = html_encode(copytext(html_decode(text), first, last))
+	text = replacetext(text, JA_TEMP, JA_POPUP)
+	return text
+
 
 //For generating neat chat tag-images
 //The icon var could be local in the proc, but it's a waste of resources
