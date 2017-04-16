@@ -19,11 +19,11 @@
 	icon_state = "stamp-ward"
 
 /obj/item/weapon/stamp/solgov
-	name = "\improper Sol Central Government rubber stamp"
+	name = " Sol Central Government rubber stamp"
 	icon_state = "stamp-intaff"
 
 /obj/item/weapon/stamp/nt
-	name = "\improper NanoTrasen rubber stamp"
+	name = " NanoTrasen rubber stamp"
 	icon_state = "stamp-intaff"
 
 /obj/item/weapon/stamp/deckoff

@@ -53,7 +53,7 @@
 		/obj/item/clothing/under/syndicate/tacticool = 2)
 
 /obj/structure/closet/thunderdome
-	name = "\improper Thunderdome closet"
+	name = " Thunderdome closet"
 	desc = "Everything you need!"
 	icon_state = "syndicate"
 	icon_closed = "syndicate"
@@ -61,7 +61,7 @@
 	anchored = 1
 
 /obj/structure/closet/thunderdome/tdred
-	name = "red-team Thunderdome closet"	
+	name = "red-team Thunderdome closet"
 	will_contain = list(
 		/obj/item/clothing/suit/armor/tdome/red = 3,
 		/obj/item/weapon/melee/energy/sword = 3,

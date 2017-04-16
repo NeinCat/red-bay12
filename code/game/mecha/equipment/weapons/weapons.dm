@@ -64,7 +64,7 @@
 
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/laser
 	equip_cooldown = 8
-	name = "\improper CH-PS \"Immolator\" laser"
+	name = " CH-PS \"Immolator\" laser"
 	icon_state = "mecha_laser"
 	energy_drain = 3 KILOWATTS
 	projectile = /obj/item/projectile/beam
@@ -82,7 +82,7 @@
 
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/heavy
 	equip_cooldown = 15
-	name = "\improper CH-LC \"Solaris\" laser cannon"
+	name = " CH-LC \"Solaris\" laser cannon"
 	icon_state = "mecha_laser"
 	energy_drain = 6 KILOWATTS
 	projectile = /obj/item/projectile/beam/heavylaser
@@ -118,7 +118,7 @@
 		return
 
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/taser
-	name = "\improper PBT \"Pacifier\" mounted taser"
+	name = " PBT \"Pacifier\" mounted taser"
 	icon_state = "mecha_taser"
 	energy_drain = 2 KILOWATTS
 	equip_cooldown = 8
@@ -127,7 +127,7 @@
 
 /* Commenting this out rather than removing it because it may be useful for reference.
 /obj/item/mecha_parts/mecha_equipment/weapon/honker
-	name = "\improper HoNkER BlAsT 5000"
+	name = " HoNkER BlAsT 5000"
 	icon_state = "mecha_honker"
 	energy_drain = 200
 	equip_cooldown = 150
@@ -197,7 +197,7 @@
 
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/scattershot
-	name = "\improper LBX AC 10 \"Scattershot\""
+	name = " LBX AC 10 \"Scattershot\""
 	icon_state = "mecha_scatter"
 	equip_cooldown = 20
 	projectile = /obj/item/projectile/bullet/pistol/medium
@@ -209,7 +209,7 @@
 	projectile_energy_cost = 50 KILOWATTS
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg
-	name = "\improper Ultra AC 2"
+	name = " Ultra AC 2"
 	icon_state = "mecha_uac2"
 	equip_cooldown = 10
 	projectile = /obj/item/projectile/bullet/pistol/medium
@@ -228,7 +228,7 @@
 	AM.throw_at(target,missile_range, missile_speed, chassis)
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/flare
-	name = "\improper BNI Flare Launcher"
+	name = " BNI Flare Launcher"
 	icon_state = "mecha_flaregun"
 	projectile = /obj/item/device/flashlight/flare
 	fire_sound = 'sound/weapons/tablehit1.ogg'
@@ -246,7 +246,7 @@
 	..()
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/explosive
-	name = "\improper SRM-8 missile rack"
+	name = " SRM-8 missile rack"
 	icon_state = "mecha_missilerack"
 	projectile = /obj/item/missile
 	fire_sound = 'sound/effects/bang.ogg'
@@ -274,7 +274,7 @@
 		return
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/flashbang
-	name = "\improper SGL-6 grenade launcher"
+	name = " SGL-6 grenade launcher"
 	icon_state = "mecha_grenadelnchr"
 	projectile = /obj/item/weapon/grenade/flashbang
 	fire_sound = 'sound/effects/bang.ogg'
@@ -291,7 +291,7 @@
 		F.detonate()
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/flashbang/clusterbang//Because I am a heartless bastard -Sieve
-	name = "\improper SOP-6 grenade launcher"
+	name = " SOP-6 grenade launcher"
 	projectile = /obj/item/weapon/grenade/flashbang/clusterbang
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack/flashbang/clusterbang/limited/get_equip_info()//Limited version of the clusterbang launcher that can't reload

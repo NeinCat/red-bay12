@@ -40,6 +40,6 @@
 	icon_state = "solblue"
 
 /obj/item/clothing/accessory/armband/whitered
-	name = "\improper NanoTrasen armband"
+	name = " NanoTrasen armband"
 	desc = "An armband, worn by the crew to display which department they're assigned to. This one is white and red."
 	icon_state = "whitered"

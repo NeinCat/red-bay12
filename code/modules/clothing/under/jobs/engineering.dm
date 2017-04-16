@@ -36,7 +36,7 @@
 	worn_state = "roboticsf"
 
 /obj/item/clothing/under/rank/ntwork
-	name = "\improper NanoTrasen coveralls"
+	name = " NanoTrasen coveralls"
 	desc = "A pair of beige coveralls made out of a strong, canvas-like material. The coloring on the fringes denotes it as a NanoTrasen-branded suit, typically given to their more blue-collared employees."
 	icon_state = "ntwork"
 	item_state = "lb_suit"
@@ -44,7 +44,7 @@
 	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 5, rad = 0)
 
 /obj/item/clothing/under/rank/ntpilot
-	name = "\improper NanoTrasen flightsuit"
+	name = " NanoTrasen flightsuit"
 	desc = "A sleek dark red NanoTrasen flightsuit. It proudly sports three different patches with the NanoTrasen logo on it, as well as several unnecessary looking flaps and pockets for effect."
 	icon_state = "ntpilot"
 	item_state = "r_suit"

@@ -209,7 +209,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	zippomes = "<span class='rose'>With a flick of their wrist, USER lights their NAME with their FLAME.</span>"
 	weldermes = "<span class='notice'>USER casually lights the NAME with FLAME.</span>"
 	ignitermes = "<span class='notice'>USER fiddles with FLAME, and manages to light their NAME.</span>"
-	brand = "\improper Trans-Stellar Duty-free"
+	brand = " Trans-Stellar Duty-free"
 
 /obj/item/clothing/mask/smokable/cigarette/New()
 	..()
@@ -240,7 +240,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	name = "menthol cigarette"
 	desc = "A cigarette with a little minty kick. Well, minty in theory."
 	icon_state = "cigmentol"
-	brand = "\improper Temperamento Menthol"
+	brand = " Temperamento Menthol"
 	color = "#ddffe8"
 	type_butt = /obj/item/weapon/cigbutt/menthol
 
@@ -253,11 +253,11 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	reagents.add_reagent("menthol", 1)
 
 /obj/item/clothing/mask/smokable/cigarette/luckystars
-	brand = "\improper Lucky Star"
+	brand = " Lucky Star"
 
 /obj/item/clothing/mask/smokable/cigarette/jerichos
 	name = "rugged cigarette"
-	brand = "\improper Jericho"
+	brand = " Jericho"
 	icon_state = "cigjer"
 	color = "#dcdcdc"
 	type_butt = /obj/item/weapon/cigbutt/jerichos
@@ -267,12 +267,12 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/smokable/cigarette/carcinomas
 	name = "dark cigarette"
-	brand = "\improper Carcinoma Angel"
+	brand = " Carcinoma Angel"
 	color = "#869286"
 
 /obj/item/clothing/mask/smokable/cigarette/professionals
 	name = "thin cigarette"
-	brand = "\improper Professional"
+	brand = " Professional"
 	icon_state = "cigpro"
 	type_butt = /obj/item/weapon/cigbutt/professionals
 
@@ -280,10 +280,10 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	icon_state = "cigbuttpro"
 
 /obj/item/clothing/mask/smokable/cigarette/killthroat
-	brand = "\improper Acme Co. cigarette"
+	brand = " Acme Co. cigarette"
 
 /obj/item/clothing/mask/smokable/cigarette/dromedaryco
-	brand = "\improper Dromedary Co. cigarette"
+	brand = " Dromedary Co. cigarette"
 
 /obj/item/clothing/mask/smokable/cigarette/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	..()
@@ -360,7 +360,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		reagents.add_reagent("nicotine", 5)
 
 /obj/item/clothing/mask/smokable/cigarette/cigar/cohiba
-	name = "\improper Cohiba Robusto cigar"
+	name = " Cohiba Robusto cigar"
 	desc = "There's little more you could want from a cigar."
 	icon_state = "cigar2off"
 	icon_on = "cigar2on"
@@ -524,7 +524,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	var/base_state
 
 /obj/item/weapon/flame/lighter/zippo
-	name = "\improper Zippo lighter"
+	name = " Zippo lighter"
 	desc = "The zippo."
 	icon_state = "zippo"
 	item_state = "zippo"

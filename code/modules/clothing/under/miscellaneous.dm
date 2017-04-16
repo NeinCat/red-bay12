@@ -65,7 +65,7 @@
 //This set of uniforms looks fairly fancy and is generally used for high-ranking NT personnel from what I've seen, so lets give them appropriate ranks.
 /obj/item/clothing/under/rank/centcom
 	desc = "Gold trim on space-black cloth, this uniform displays the rank of \"Captain.\"."
-	name = "\improper Officer's Dress Uniform"
+	name = " Officer's Dress Uniform"
 	icon_state = "officer"
 	item_state = "lawyer_black"
 	worn_state = "officer"
@@ -73,7 +73,7 @@
 
 /obj/item/clothing/under/rank/centcom_officer
 	desc = "Gold trim on space-black cloth, this uniform displays the rank of \"Admiral.\"."
-	name = "\improper Officer's Dress Uniform"
+	name = " Officer's Dress Uniform"
 	icon_state = "officer"
 	item_state = "lawyer_black"
 	worn_state = "officer"
@@ -81,7 +81,7 @@
 
 /obj/item/clothing/under/rank/centcom_captain
 	desc = "Gold trim on space-black cloth, this uniform displays the rank of \"Admiral-Executive.\"."
-	name = "\improper Officer's Dress Uniform"
+	name = " Officer's Dress Uniform"
 	icon_state = "centcom"
 	item_state = "lawyer_black"
 	worn_state = "centcom"
@@ -97,7 +97,7 @@
 	siemens_coefficient = 0.9
 
 /obj/item/clothing/under/space
-	name = "\improper NASA jumpsuit"
+	name = " NASA jumpsuit"
 	desc = "It has a NASA logo on it and is made of space-proofed materials."
 	icon_state = "black"
 	item_state = "bl_suit"
@@ -520,7 +520,7 @@
 	starting_accessories = list(/obj/item/clothing/accessory/yellow, /obj/item/clothing/accessory/toggleable/tan_jacket)
 
 /obj/item/clothing/under/suit_jacket/nt
-	name = "\improper NanoTrasen executive suit"
+	name = " NanoTrasen executive suit"
 	desc = "A suit that NanoTrasen gives to its executives."
 	icon_state = "ntsuit"
 	item_state = "bl_suit"
@@ -557,38 +557,38 @@
 	body_parts_covered = 0
 
 /obj/item/clothing/under/pcrc
-	name = "\improper PCRC uniform"
+	name = " PCRC uniform"
 	desc = "A uniform belonging to Proxima Centauri Risk Control, a private security firm."
 	icon_state = "pcrc"
 	item_state = "jensensuit"
 	worn_state = "pcrc"
 
 /obj/item/clothing/under/grayson
-	name = "\improper Grayson overalls"
+	name = " Grayson overalls"
 	desc = "A set of overalls belonging to Grayson Manufactories, a mining Trans-Stellar."
 	icon_state = "grayson"
 	worn_state = "grayson"
 
 /obj/item/clothing/under/wardt
-	name = "\improper Ward-Takahashi jumpsuit"
+	name = " Ward-Takahashi jumpsuit"
 	desc = "A jumpsuit belonging to Ward-Takahashi, a Trans-Stellar in the consumer goods market."
 	icon_state = "wardt"
 	worn_state = "wardt"
 
 /obj/item/clothing/under/mbill
-	name = "\improper Major Bill's uniform"
+	name = " Major Bill's uniform"
 	desc = "A uniform belonging to Major Bill's Transportation, a shipping megacorporation."
 	icon_state = "mbill"
 	worn_state = "mbill"
 
 /obj/item/clothing/under/confederacy
-	name = "\improper Confederacy uniform"
+	name = " Confederacy uniform"
 	desc = "A military uniform belonging to the Confederacy of Man, an independent human government."
 	icon_state = "confed"
 	worn_state = "confed"
 
 /obj/item/clothing/under/saare
-	name = "\improper SAARE uniform"
+	name = " SAARE uniform"
 	desc = "A dress uniform belonging to Stealth Assault Enterprises, a minor private military corporation."
 	icon_state = "saare"
 	worn_state = "saare"
@@ -600,19 +600,19 @@
 	worn_state = "frontier"
 
 /obj/item/clothing/under/aether
-	name = "\improper Aether jumpsuit"
+	name = " Aether jumpsuit"
 	desc = "A jumpsuit belonging to Aether Atmospherics and Recycling, a Trans-Stellar that supplies recycling and atmospheric systems to colonies."
 	icon_state = "aether"
 	worn_state = "aether"
 
 /obj/item/clothing/under/focal
-	name = "\improper Focal Point jumpsuit"
+	name = " Focal Point jumpsuit"
 	desc = "A jumpsuit belonging to Focal Point Energistics, an engineering megacorporation."
 	icon_state = "focal"
 	worn_state = "focal"
 
 /obj/item/clothing/under/hephaestus
-	name = "\improper Hephaestus jumpsuit"
+	name = " Hephaestus jumpsuit"
 	desc = "A jumpsuit belonging to Hephaestus Industries, a Trans-Stellar best known for its arms production."
 	icon_state = "heph"
 	worn_state = "heph"

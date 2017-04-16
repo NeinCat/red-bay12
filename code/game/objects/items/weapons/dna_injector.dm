@@ -1,5 +1,5 @@
 /obj/item/weapon/dnainjector
-	name = "\improper DNA injector"
+	name = " DNA injector"
 	desc = "This injects the person with DNA."
 	icon = 'icons/obj/items.dmi'
 	icon_state = "dnainjector"
@@ -135,7 +135,7 @@
 	return
 
 /obj/item/weapon/dnainjector/hulkmut
-	name = "\improper DNA injector (Hulk)"
+	name = " DNA injector (Hulk)"
 	desc = "This will make you big and strong, but give you a bad skin condition."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -145,7 +145,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antihulk
-	name = "\improper DNA injector (Anti-Hulk)"
+	name = " DNA injector (Anti-Hulk)"
 	desc = "Cures green skin."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -155,7 +155,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/xraymut
-	name = "\improper DNA injector (Xray)"
+	name = " DNA injector (Xray)"
 	desc = "Finally you can see what the Captain does."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -165,7 +165,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antixray
-	name = "\improper DNA injector (Anti-Xray)"
+	name = " DNA injector (Anti-Xray)"
 	desc = "It will make you see harder."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -175,7 +175,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/firemut
-	name = "\improper DNA injector (Fire)"
+	name = " DNA injector (Fire)"
 	desc = "Gives you fire."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -185,7 +185,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antifire
-	name = "\improper DNA injector (Anti-Fire)"
+	name = " DNA injector (Anti-Fire)"
 	desc = "Cures fire."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -195,7 +195,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/telemut
-	name = "\improper DNA injector (Tele.)"
+	name = " DNA injector (Tele.)"
 	desc = "Super brain man!"
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -205,7 +205,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antitele
-	name = "\improper DNA injector (Anti-Tele.)"
+	name = " DNA injector (Anti-Tele.)"
 	desc = "Will make you not able to control your mind."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -215,7 +215,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/nobreath
-	name = "\improper DNA injector (No Breath)"
+	name = " DNA injector (No Breath)"
 	desc = "Hold your breath and count to infinity."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -225,7 +225,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antinobreath
-	name = "\improper DNA injector (Anti-No Breath)"
+	name = " DNA injector (Anti-No Breath)"
 	desc = "Hold your breath and count to 100."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -235,7 +235,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/remoteview
-	name = "\improper DNA injector (Remote View)"
+	name = " DNA injector (Remote View)"
 	desc = "Stare into the distance for a reason."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -245,7 +245,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antiremoteview
-	name = "\improper DNA injector (Anti-Remote View)"
+	name = " DNA injector (Anti-Remote View)"
 	desc = "Cures green skin."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -255,7 +255,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/regenerate
-	name = "\improper DNA injector (Regeneration)"
+	name = " DNA injector (Regeneration)"
 	desc = "Healthy but hungry."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -265,7 +265,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antiregenerate
-	name = "\improper DNA injector (Anti-Regeneration)"
+	name = " DNA injector (Anti-Regeneration)"
 	desc = "Sickly but sated."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -275,7 +275,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/runfast
-	name = "\improper DNA injector (Increase Run)"
+	name = " DNA injector (Increase Run)"
 	desc = "Running Man."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -285,7 +285,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antirunfast
-	name = "\improper DNA injector (Anti-Increase Run)"
+	name = " DNA injector (Anti-Increase Run)"
 	desc = "Walking Man."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -295,7 +295,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/morph
-	name = "\improper DNA injector (Morph)"
+	name = " DNA injector (Morph)"
 	desc = "A total makeover."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -305,7 +305,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antimorph
-	name = "\improper DNA injector (Anti-Morph)"
+	name = " DNA injector (Anti-Morph)"
 	desc = "Cures identity crisis."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -316,7 +316,7 @@
 
 /* No COLDBLOCK on bay
 /obj/item/weapon/dnainjector/cold
-	name = "\improper DNA injector (Cold)"
+	name = " DNA injector (Cold)"
 	desc = "Feels a bit chilly."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -326,7 +326,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/anticold
-	name = "\improper DNA injector (Anti-Cold)"
+	name = " DNA injector (Anti-Cold)"
 	desc = "Feels room-temperature."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -337,7 +337,7 @@
 */
 
 /obj/item/weapon/dnainjector/noprints
-	name = "\improper DNA injector (No Prints)"
+	name = " DNA injector (No Prints)"
 	desc = "Better than a pair of budget insulated gloves."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -347,7 +347,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antinoprints
-	name = "\improper DNA injector (Anti-No Prints)"
+	name = " DNA injector (Anti-No Prints)"
 	desc = "Not quite as good as a pair of budget insulated gloves."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -357,7 +357,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/insulation
-	name = "\improper DNA injector (Shock Immunity)"
+	name = " DNA injector (Shock Immunity)"
 	desc = "Better than a pair of real insulated gloves."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -367,7 +367,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antiinsulation
-	name = "\improper DNA injector (Anti-Shock Immunity)"
+	name = " DNA injector (Anti-Shock Immunity)"
 	desc = "Not quite as good as a pair of real insulated gloves."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -377,7 +377,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/midgit
-	name = "\improper DNA injector (Small Size)"
+	name = " DNA injector (Small Size)"
 	desc = "Makes you shrink."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -387,7 +387,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antimidgit
-	name = "\improper DNA injector (Anti-Small Size)"
+	name = " DNA injector (Anti-Small Size)"
 	desc = "Makes you grow. But not too much."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -398,7 +398,7 @@
 
 /////////////////////////////////////
 /obj/item/weapon/dnainjector/antiglasses
-	name = "\improper DNA injector (Anti-Glasses)"
+	name = " DNA injector (Anti-Glasses)"
 	desc = "Toss away those glasses!"
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -408,7 +408,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/glassesmut
-	name = "\improper DNA injector (Glasses)"
+	name = " DNA injector (Glasses)"
 	desc = "Will make you need dorkish glasses."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -418,7 +418,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/epimut
-	name = "\improper DNA injector (Epi.)"
+	name = " DNA injector (Epi.)"
 	desc = "Shake shake shake the room!"
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -428,7 +428,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antiepi
-	name = "\improper DNA injector (Anti-Epi.)"
+	name = " DNA injector (Anti-Epi.)"
 	desc = "Will fix you up from shaking the room."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -438,7 +438,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/anticough
-	name = "\improper DNA injector (Anti-Cough)"
+	name = " DNA injector (Anti-Cough)"
 	desc = "Will stop that awful noise."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -448,7 +448,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/coughmut
-	name = "\improper DNA injector (Cough)"
+	name = " DNA injector (Cough)"
 	desc = "Will bring forth a sound of horror from your throat."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -458,7 +458,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/clumsymut
-	name = "\improper DNA injector (Clumsy)"
+	name = " DNA injector (Clumsy)"
 	desc = "Makes clumsy minions."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -468,7 +468,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/anticlumsy
-	name = "\improper DNA injector (Anti-Clumy)"
+	name = " DNA injector (Anti-Clumy)"
 	desc = "Cleans up confusion."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -478,7 +478,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antitour
-	name = "\improper DNA injector (Anti-Tour.)"
+	name = " DNA injector (Anti-Tour.)"
 	desc = "Will cure tourrets."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -488,7 +488,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/tourmut
-	name = "\improper DNA injector (Tour.)"
+	name = " DNA injector (Tour.)"
 	desc = "Gives you a nasty case off tourrets."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -498,7 +498,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/stuttmut
-	name = "\improper DNA injector (Stutt.)"
+	name = " DNA injector (Stutt.)"
 	desc = "Makes you s-s-stuttterrr."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -508,7 +508,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antistutt
-	name = "\improper DNA injector (Anti-Stutt.)"
+	name = " DNA injector (Anti-Stutt.)"
 	desc = "Fixes that speaking impairment."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -518,7 +518,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/blindmut
-	name = "\improper DNA injector (Blind)"
+	name = " DNA injector (Blind)"
 	desc = "Makes you not see anything."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -528,7 +528,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antiblind
-	name = "\improper DNA injector (Anti-Blind)"
+	name = " DNA injector (Anti-Blind)"
 	desc = "ITS A MIRACLE!!!"
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -538,7 +538,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/deafmut
-	name = "\improper DNA injector (Deaf)"
+	name = " DNA injector (Deaf)"
 	desc = "Sorry, what did you say?"
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -548,7 +548,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antideaf
-	name = "\improper DNA injector (Anti-Deaf)"
+	name = " DNA injector (Anti-Deaf)"
 	desc = "Will make you hear once more."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -558,7 +558,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/hallucination
-	name = "\improper DNA injector (Halluctination)"
+	name = " DNA injector (Halluctination)"
 	desc = "What you see isn't always what you get."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -568,7 +568,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/antihallucination
-	name = "\improper DNA injector (Anti-Hallucination)"
+	name = " DNA injector (Anti-Hallucination)"
 	desc = "What you see is what you get."
 	datatype = DNA2_BUF_SE
 	value = 0x001
@@ -578,7 +578,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/h2m
-	name = "\improper DNA injector (Human > Monkey)"
+	name = " DNA injector (Human > Monkey)"
 	desc = "Will make you a flea bag."
 	datatype = DNA2_BUF_SE
 	value = 0xFFF
@@ -588,7 +588,7 @@
 		..()
 
 /obj/item/weapon/dnainjector/m2h
-	name = "\improper DNA injector (Monkey > Human)"
+	name = " DNA injector (Monkey > Human)"
 	desc = "Will make you...less hairy."
 	datatype = DNA2_BUF_SE
 	value = 0x001

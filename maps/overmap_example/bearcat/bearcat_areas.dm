@@ -1,135 +1,135 @@
 /area/ship/scrap
-	name = "\improper Generic Ship"
+	name = " Generic Ship"
 
 /area/ship/scrap/crew
-	name = "\improper Crew Compartements"
+	name = " Crew Compartements"
 	icon_state = "crew_quarters"
 
 /area/ship/scrap/crew/hallway/port
-	name = "\improper Crew Hallway - Port"
+	name = " Crew Hallway - Port"
 
 /area/ship/scrap/crew/hallway/starboard
-	name = "\improper Crew Hallway - Starboard"
+	name = " Crew Hallway - Starboard"
 
 /area/ship/scrap/crew/kitchen
-	name = "\improper Galley"
+	name = " Galley"
 	icon_state = "kitchen"
 
 /area/ship/scrap/crew/cryo
-	name = "\improper Cryo Storage"
+	name = " Cryo Storage"
 	icon_state = "cryo"
 
 /area/ship/scrap/crew/dorms1
-	name = "\improper Crew Cabin #1"
+	name = " Crew Cabin #1"
 	icon_state = "green"
 
 /area/ship/scrap/crew/dorms2
-	name = "\improper Crew Cabin #2"
+	name = " Crew Cabin #2"
 	icon_state = "purple"
 
 /area/ship/scrap/crew/dorms3
-	name = "\improper Crew Cabin #3"
+	name = " Crew Cabin #3"
 	icon_state = "yellow"
 
 /area/ship/scrap/crew/saloon
-	name = "\improper Saloon"
+	name = " Saloon"
 	icon_state = "conference"
 
 /area/ship/scrap/crew/toilets
-	name = "\improper Bathrooms"
+	name = " Bathrooms"
 	icon_state = "toilet"
 	turf_initializer = /decl/turf_initializer/maintenance
 
 /area/ship/scrap/crew/wash
-	name = "\improper Washroom"
+	name = " Washroom"
 	icon_state = "locker"
 
 /area/ship/scrap/crew/medbay
-	name = "\improper Medical Bay"
+	name = " Medical Bay"
 	icon_state = "medbay"
 
 /area/ship/scrap/cargo
-	name = "\improper Cargo Hold"
+	name = " Cargo Hold"
 	icon_state = "quartstorage"
 
 /area/ship/scrap/cargo/lower
-	name = "\improper Lower Cargo Hold"
+	name = " Lower Cargo Hold"
 
 /area/ship/scrap/dock
-	name = "\improper Docking Bay"
+	name = " Docking Bay"
 	icon_state = "entry_1"
 
 /area/ship/scrap/fire
-	name = "\improper Firefighting Equipment Comparment"
+	name = " Firefighting Equipment Comparment"
 	icon_state = "green"
 
 /area/ship/scrap/unused
-	name = "\improper Compartment 2-B"
+	name = " Compartment 2-B"
 	icon_state = "yellow"
 	turf_initializer = /decl/turf_initializer/maintenance
 
 /area/ship/scrap/hidden
-	name = "\improper Unknown" //shielded compartment
+	name = " Unknown" //shielded compartment
 	icon_state = "auxstorage"
 
 /area/ship/scrap/broken1
-	name = "\improper Compartment 1-A"
+	name = " Compartment 1-A"
 	icon_state = "green"
 
 /area/ship/scrap/broken2
-	name = "\improper Compartment 1-B"
+	name = " Compartment 1-B"
 	icon_state = "yellow"
 
 /area/ship/scrap/gambling
-	name = "\improper Compartment 1-C"
+	name = " Compartment 1-C"
 	icon_state = "cave"
 
 /area/ship/scrap/maintenance
-	name = "\improper Maintenance Compartments"
+	name = " Maintenance Compartments"
 	icon_state = "amaint"
 
 /area/ship/scrap/maintenance/lower
-	name = "\improper Lower Deck Maintenance Compartments"
+	name = " Lower Deck Maintenance Compartments"
 	icon_state = "sub_maint_aft"
 
 /area/ship/scrap/maintenance/storage
-	name = "\improper Tools Storage"
+	name = " Tools Storage"
 	icon_state = "engineering_storage"
 
 /area/ship/scrap/maintenance/eva
-	name = "\improper EVA Storage"
+	name = " EVA Storage"
 	icon_state = "eva"
 
 /area/ship/scrap/maintenance/atmos
-	name = "\improper Atmospherics Comparment"
+	name = " Atmospherics Comparment"
 	icon_state = "atmos"
 
 /area/ship/scrap/maintenance/power
-	name = "\improper Power Compartment"
+	name = " Power Compartment"
 	icon_state = "engine_smes"
 
 /area/ship/scrap/maintenance/engine
 	icon_state = "engine"
 
 /area/ship/scrap/maintenance/engine/aft
-	name = "\improper Main Engine Bay"
+	name = " Main Engine Bay"
 
 /area/ship/scrap/maintenance/engine/port
-	name = "\improper Port Thruster"
+	name = " Port Thruster"
 
 /area/ship/scrap/maintenance/engine/starboard
-	name = "\improper Starboard Thruster"
+	name = " Starboard Thruster"
 
 /area/ship/scrap/command
-	name = "\improper Command Deck"
+	name = " Command Deck"
 	icon_state = "centcom"
 
 /area/ship/scrap/command/captain
-	name = "\improper Captain's Quarters"
+	name = " Captain's Quarters"
 	icon_state = "captain"
 
 /area/ship/scrap/comms
-	name = "\improper Communications Relay"
+	name = " Communications Relay"
 	icon_state = "tcomsatcham"
 
 /area/ship/scrap/shuttle/
@@ -138,11 +138,11 @@
 	lighting_use_dynamic = 0
 
 /area/ship/scrap/shuttle/ingoing
-	name = "\improper Docking Bay #1"
+	name = " Docking Bay #1"
 	icon_state = "tcomsatcham"
 
 /area/ship/scrap/shuttle/outgoing
-	name = "\improper Docking Bay #2"
+	name = " Docking Bay #2"
 	icon_state = "tcomsatcham"
 
 /area/ship/scrap/shuttle/pod

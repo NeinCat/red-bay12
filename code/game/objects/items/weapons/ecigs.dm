@@ -21,7 +21,7 @@
 	ec_cartridge = new cartridge_type(src)
 
 /obj/item/clothing/mask/smokable/ecig/util
-	name = "\improper ONI-55 electronic cigarette"
+	name = " ONI-55 electronic cigarette"
 	desc = "Small metal cigarette-shaped device to satiate nicotine hunger. This one is ONI-55 model. "
 	icon_state = "ecigoff1"
 	icon_off = "ecigoff1"
@@ -29,7 +29,7 @@
 	icon_on = "ecigon"
 
 /obj/item/clothing/mask/smokable/ecig/deluxe
-	name = "\improper eGavana MK3 electronic cigarette"
+	name = " eGavana MK3 electronic cigarette"
 	desc = "Cigar-like device for those who like luxurous option. This one is eGavana MK3 model. "
 	icon_state = "pcigoff1"
 	icon_off = "pcigoff1"
@@ -37,7 +37,7 @@
 	icon_on = "pcigon"
 
 /obj/item/clothing/mask/smokable/ecig/simple
-	name = "\improper Lucky 1337 electronic cigarette"
+	name = " Lucky 1337 electronic cigarette"
 	desc = "Device for safe consuming of nicotine, made to look like regular cigarette. This one is Lucky 1337 model. "
 	icon_state = "ccigoff"
 	icon_off = "ccigoff"
