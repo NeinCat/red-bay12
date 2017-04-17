@@ -2,13 +2,13 @@
 
 # Server the MySQL database can be found at
 # Examples: localhost, 200.135.5.43, www.mysqldb.com, etc.
-ADDRESS localhost
+ADDRESS 127.0.0.1
 
 # MySQL server port (default is 3306)
 PORT 3306
 
 # Database the population, death, karma, etc. tables may be found in
-DATABASE tgstation
+DATABASE station
 
 # Username/Login used to access the database
 LOGIN mylogin
@@ -17,10 +17,10 @@ LOGIN mylogin
 PASSWORD mypassword
 
 # The following information is for feedback tracking via the blackbox server
-FEEDBACK_DATABASE test
-FEEDBACK_LOGIN mylogin
-FEEDBACK_PASSWORD mypassword
+FEEDBACK_DATABASE feedback
+FEEDBACK_LOGIN NeinDB
+FEEDBACK_PASSWORD drnoob1638
 
 # Track population and death statistics
 # Comment this out to disable
-#ENABLE_STAT_TRACKING
+ENABLE_STAT_TRACKING
