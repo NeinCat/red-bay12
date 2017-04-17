@@ -13,6 +13,5 @@ Salyvador - GameAdmin
 MorlonBlack - GameAdmin 
 nano_xXx - Admin
 def0lt - Admin
-alchemisthero - Developer
 itjusallah - Developer
 The Devils Servant - TrialAdmin
