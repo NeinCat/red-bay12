@@ -176,7 +176,7 @@ ALLOW_AI
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY yournamehere
+HOSTEDBY NeinCat
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -196,16 +196,16 @@ GUEST_BAN
 #SERVERURL server.net:port
 
 ## forum address
-FORUMURL https://discord.gg/wX4Qt
+FORUMURL http://forums.lazarus.space/index.php
 
 ## Wiki address
-# WIKIURL http://example.com
+#WIKIURL http://wiki.lazarus.space
 
 ## GitHub address
 GITHUBURL https://bitbucket.org/NeinCat666/red-bay12
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://discord.gg/wX4Qt
+BANAPPEALS http://forums.lazarus.space/viewforum.php?f=14
 
 ## In-game features
 ## spawns a spellbook which gives object-type spells instead of verb-type spells for the wizard
