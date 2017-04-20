@@ -37,7 +37,6 @@ TrialAdmin      +@ +ADMIN +SPAWN +REJUV +VAREDIT +BAN +SERVER
 Admin			+@ +FUN +BUILDMODE +SOUND +DEBUG
 GameAdmin       +@ +POSSESS +STEALTH
 GameMaster      +@ +PERMISSIONS
-
 HeadDeveloper   +EVERYTHING
 HeadAdmin       +EVERYTHING
 Host            +EVERYTHING

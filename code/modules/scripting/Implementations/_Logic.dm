@@ -132,7 +132,7 @@
 
 /proc/n_upper(var/string)
 	if(istext(string))
-		return uppertext(string)
+		return ruppertext(string)
 
 /*
 //Makes a list where all indicies in a string is a seperate index in the list

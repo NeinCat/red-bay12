@@ -152,12 +152,9 @@
 	icon_state = "mail"
 
 /obj/structure/sign/warning/moving_parts
-<<<<<<< HEAD
 	name = " MOVING PARTS"
-=======
-	name = "\improper MOVING PARTS"
+	name = "MOVING PARTS"
 	icon_state = "movingparts"
->>>>>>> 3104380735c8e688d9c042bd6185d58fce034150
 
 /obj/structure/sign/warning/nosmoking_1
 	name = " NO SMOKING"
@@ -179,19 +176,16 @@
 	name = " SECURE AREA"
 
 /obj/structure/sign/warning/secure_area/armory
-<<<<<<< HEAD
 	name = " ARMORY"
 
 /obj/structure/sign/warning/server_room
 	name = " SERVER ROOM"
-=======
-	name = "\improper ARMORY"
+	name = "ARMORY"
 	icon_state = "armory"
 
 /obj/structure/sign/warning/server_room
-	name = "\improper SERVER ROOM"
+	name = "SERVER ROOM"
 	icon_state = "server"
->>>>>>> 3104380735c8e688d9c042bd6185d58fce034150
 
 /obj/structure/sign/warning/siphon_valve
 	name = " SIPHON VALVE"

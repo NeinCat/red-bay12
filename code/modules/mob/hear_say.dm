@@ -50,7 +50,7 @@
 		speaker_name = H.GetVoice()
 
 	if(italics)
-		message = "<i>[message]</i>"
+		message = "<i>[intonation(message)]</i>"
 
 	var/track = null
 	if(isghost(src))
