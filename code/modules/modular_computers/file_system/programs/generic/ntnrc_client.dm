@@ -28,7 +28,7 @@
 		if(!channel)
 			return 1
 		var/mob/living/user = usr
-		var/message = sanitize(input(user, "Enter message or leave blank to cancel: "))
+		var/message = cp1251_to_utf8(sanitize(input(user, "Enter message or leave blank to cancel: ")))
 		if(!message || !channel)
 			return
 		channel.add_message(message, username)
@@ -65,7 +65,7 @@
 	if(href_list["PRG_newchannel"])
 		. = 1
 		var/mob/living/user = usr
-		var/channel_title = sanitize(input(user,"Enter channel name or leave blank to cancel:"))
+		var/channel_title = rustoutf(cp1251_to_utf8(sanitize(input(user,"Enter channel name or leave blank to cancel:"))))
 		if(!channel_title)
 			return
 		var/datum/ntnet_conversation/C = new/datum/ntnet_conversation()
@@ -95,7 +95,7 @@
 	if(href_list["PRG_changename"])
 		. = 1
 		var/mob/living/user = usr
-		var/newname = sanitize(input(user,"Enter new nickname or leave blank to cancel:"))
+		var/newname = rustoutf(cp1251_to_utf8(sanitize(input(user,"Enter new nickname or leave blank to cancel:"))))
 		if(!newname)
 			return 1
 		if(channel)
@@ -107,7 +107,7 @@
 		if(!channel)
 			return
 		var/mob/living/user = usr
-		var/logname = input(user,"Enter desired logfile name (.log) or leave blank to cancel:")
+		var/logname = rustoutf(cp1251_to_utf8(sanitize(input(user,"Enter desired logfile name (.log) or leave blank to cancel:"))))
 		if(!logname || !channel)
 			return 1
 		var/datum/computer_file/data/logfile = new/datum/computer_file/data/logfile()
@@ -132,11 +132,11 @@
 		if(!operator_mode || !channel)
 			return 1
 		var/mob/living/user = usr
-		var/newname = sanitize(input(user, "Enter new channel name or leave blank to cancel:"))
+		var/newname = cp1251_to_utf8(sanitize(input(user, "Enter new channel name or leave blank to cancel:")))
 		if(!newname || !channel)
 			return
 		channel.add_status_message("Channel renamed from [channel.title] to [newname] by operator.")
-		channel.title = newname
+		channel.title = rustoutf(newname)
 	if(href_list["PRG_deletechannel"])
 		. = 1
 		if(channel && ((channel.operator == src) || netadmin_mode))

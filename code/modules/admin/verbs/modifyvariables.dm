@@ -578,7 +578,7 @@
 	if(old_value == new_value)
 		return
 
-	world.log << "### VarEdit by [src]: [O.type] [variable]=[html_encode("[new_value]")]"
+	world.log << "### VarEdit by [src]: [O.type] [variable]=[rhtml_encode("[new_value]")]"
 	log_and_message_admins("modified [original_name]'s [variable] from '[old_value]' to '[new_value]'")
 
 /client

@@ -238,7 +238,7 @@ What a mess.*/
 				if ((!( t1 ) || usr.stat || !( authenticated ) || usr.restrained() || !in_range(src, usr)))
 					return
 				Perp = new/list()
-				t1 = lowertext(t1)
+				t1 = rlowertext(t1)
 				var/list/components = splittext(t1, " ")
 				if(components.len > 5)
 					return //Lets not let them search too greedily.

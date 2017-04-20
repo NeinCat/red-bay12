@@ -53,7 +53,7 @@
 	else
 		not_heard = "[verb] something" //TODO get rid of the null language and just prevent speech if language is null
 
-	message = capitalize(trim(message))
+	message = capitalize_cp1251(trim(message))
 
 	//speech problems
 	if(!(speaking && (speaking.flags & NO_STUTTER)))
