@@ -83,6 +83,10 @@
 	name = " WARNING"
 	icon_state = "securearea"
 
+/obj/structure/sign/warning/detailed
+	name = "\improper WARNING 2"
+	icon_state = "securearea2"
+
 /obj/structure/sign/warning/New()
 	..()
 	desc = "A warning sign which reads '[sanitize(name)]'."
@@ -148,7 +152,12 @@
 	icon_state = "mail"
 
 /obj/structure/sign/warning/moving_parts
+<<<<<<< HEAD
 	name = " MOVING PARTS"
+=======
+	name = "\improper MOVING PARTS"
+	icon_state = "movingparts"
+>>>>>>> 3104380735c8e688d9c042bd6185d58fce034150
 
 /obj/structure/sign/warning/nosmoking_1
 	name = " NO SMOKING"
@@ -170,10 +179,19 @@
 	name = " SECURE AREA"
 
 /obj/structure/sign/warning/secure_area/armory
+<<<<<<< HEAD
 	name = " ARMORY"
 
 /obj/structure/sign/warning/server_room
 	name = " SERVER ROOM"
+=======
+	name = "\improper ARMORY"
+	icon_state = "armory"
+
+/obj/structure/sign/warning/server_room
+	name = "\improper SERVER ROOM"
+	icon_state = "server"
+>>>>>>> 3104380735c8e688d9c042bd6185d58fce034150
 
 /obj/structure/sign/warning/siphon_valve
 	name = " SIPHON VALVE"
