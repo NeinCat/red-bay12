@@ -2617,12 +2617,12 @@
 "aYq" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beachcorner"; dir = 4},/area/holodeck/source_beach)
 "aYr" = (/obj/effect/overlay/palmtree_l,/obj/effect/overlay/coconut,/turf/simulated/floor/holofloor/beach/sand,/area/holodeck/source_beach)
 "aYs" = (/obj/item/weapon/inflatable_duck,/turf/simulated/floor/holofloor/beach/sand,/area/holodeck/source_beach)
-"aYy" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"; dir = 6},/area/holodeck/source_beach)
-"aYx" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"},/area/holodeck/source_beach)
-"aYw" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"; dir = 10},/area/holodeck/source_beach)
-"aYv" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "desert3"},/area/holodeck/source_beach)
-"aYu" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "desert2"},/area/holodeck/source_beach)
 "aYt" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"; dir = 5},/area/holodeck/source_beach)
+"aYu" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "desert2"},/area/holodeck/source_beach)
+"aYv" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "desert3"},/area/holodeck/source_beach)
+"aYw" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"; dir = 10},/area/holodeck/source_beach)
+"aYx" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"},/area/holodeck/source_beach)
+"aYy" = (/turf/simulated/floor/holofloor/beach/sand{icon_state = "beach"; dir = 6},/area/holodeck/source_beach)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaabaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaaaacaacaacaacaacaacaacaacaacaacaaa
