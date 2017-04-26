@@ -34,7 +34,7 @@
 	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/head/hairflower
-	allowed_roles = FORMAL_ROLES
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/head/bow
 	allowed_roles = FORMAL_ROLES
