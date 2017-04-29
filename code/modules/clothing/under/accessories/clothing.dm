@@ -10,12 +10,12 @@
 	icon_state = "suspenders"
 
 /obj/item/clothing/accessory/nt_tunic
-	name = " NanoTrasen tunic"
+	name = "NanoTrasen tunic"
 	desc = "A fashionable tunic that NanoTrasen gives to its lab workers."
 	icon_state = "nttunic"
 
 /obj/item/clothing/accessory/nt_tunic/exec
-	name = " NanoTrasen executive tunic"
+	name = "NanoTrasen executive tunic"
 	icon_state = "nttunicblack"
 
 /obj/item/clothing/accessory/toggleable
@@ -97,7 +97,7 @@
 	icon_state = "checkered_jacket"
 
 /obj/item/clothing/accessory/toggleable/nanotrasen_jacket
-	name = " NanoTrasen suit jakcet"
+	name = "NanoTrasen suit jacket"
 	desc = "A jacket that NanoTrasen has its executives wear."
 	icon_state = "nt_jacket"
 
