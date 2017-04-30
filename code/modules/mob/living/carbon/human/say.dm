@@ -116,15 +116,6 @@
 
 	return verb
 
-/mob/living/carbon/human/say_playsound(message, bubble_type)
-	. = ..(message)
-	if(.)
-		if(gender == FEMALE)
-			playsound(loc, 'sound/voice/male_say.ogg', 15, 1, 1)
-		else
-			playsound(loc, 'sound/voice/female_say.ogg', 25, 1, 1)
-
-
 /mob/living/carbon/human/handle_speech_problems(var/list/message_data)
 	if(silent || (sdisabilities & MUTE))
 		message_data[1] = ""

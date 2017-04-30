@@ -1,5 +1,10 @@
-/obj/item/clothing/shoes/proc/step_action() //this was made to rewrite clown shoes squeaking
-	playsound(src, 'sound/effects/step.ogg', 25, 1)
+var/footstep = 1
+
+/obj/item/clothing/shoes/handle_movement(var/turf/walking, var/running)
+	if(running)
+		playsound(src, 'sound/effects/step.ogg', 25, 1)
+	else
+		playsound(src, 'sound/effects/step.ogg', 25, 1)
 
 /obj/item/clothing/shoes/syndigaloshes
 	desc = "A pair of brown shoes. They seem to have extra grip."
@@ -99,22 +104,12 @@
 	icon_state = "clown"
 	item_state = "clown_shoes"
 	force = 0
-	var/footstep = 1	//used for squeeks whilst walking
 	species_restricted = null
 
 /obj/item/clothing/shoes/clown_shoes/New()
 	..()
 	slowdown_per_slot[slot_shoes]  = SHOES_SLOWDOWN+1
 
-/obj/item/clothing/shoes/clown_shoes/handle_movement(var/turf/walking, var/running)
-	if(running)
-		if(footstep >= 2)
-			footstep = 0
-			playsound(src, "clownstep", 50, 1) // this will get annoying very fast.
-		else
-			footstep++
-	else
-		playsound(src, "clownstep", 20, 1)
 
 /obj/item/clothing/shoes/cult
 	name = "boots"
