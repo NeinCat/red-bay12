@@ -1038,7 +1038,7 @@ About the new airlock wires panel:
 
 	//if the door is unpowered then it doesn't make sense to hear the woosh of a pneumatic actuator
 	if(arePowerSystemsOn())
-		playsound(src.loc, open_sound_powered, 100, 1)
+		playsound(src.loc, open_sound_powered, 30, 1)
 	else
 		playsound(src.loc, open_sound_unpowered, 100, 1)
 

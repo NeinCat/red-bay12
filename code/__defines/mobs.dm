@@ -232,6 +232,7 @@
 #define SPECIES_DIONA "Diona"
 #define SPECIES_VOX "Vox"
 #define SPECIES_VOXPARIAH "Vox Pariah"
+#define SPECIES_FROLAN "Floran"
 #define SPECIES_IPC "Machine"
 #define SPECIES_UNATHI "Unathi"
 #define SPECIES_SKRELL "Skrell"

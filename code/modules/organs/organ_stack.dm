@@ -26,6 +26,10 @@
 	name = "cortical stack"
 	invasive = 1
 
+/obj/item/organ/internal/stack/floran //Floran Stack Organ
+	name = "cortical stack"
+	invasive = 1
+
 /obj/item/organ/internal/stack/proc/do_backup()
 	if(owner && owner.stat != DEAD && !is_broken() && owner.mind)
 		languages = owner.languages.Copy()
