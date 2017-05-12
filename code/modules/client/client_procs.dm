@@ -138,6 +138,7 @@
 		preferences_datums[ckey] = prefs
 	prefs.last_ip = address				//these are gonna be used for banning
 	prefs.last_id = computer_id			//these are gonna be used for banning
+	apply_fps(prefs.clientfps)
 
 	. = ..()	//calls mob.Login()
 	prefs.sanitize_preferences()
@@ -188,6 +189,9 @@
 	clients -= src
 	return ..()
 
+/client/Destroy()
+	..()
+	return QDEL_HINT_HARDDEL_NOW
 
 // here because it's similar to below
 
@@ -329,3 +333,7 @@ client/verb/character_setup()
 	set category = "OOC"
 	if(prefs)
 		prefs.ShowChoices(usr)
+
+/client/proc/apply_fps(var/client_fps)
+	if(world.byond_version >= 511 && byond_version >= 511 && client_fps >= CLIENT_MIN_FPS && client_fps <= CLIENT_MAX_FPS)
+		vars["fps"] = prefs.clientfps
